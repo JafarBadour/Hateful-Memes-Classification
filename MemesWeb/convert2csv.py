@@ -47,6 +47,7 @@ if __name__ == '__main__':
             try:
 
                 copyfile(meme_path, dir2copy + f'/{k.replace("/", "__")}')
+
             except Exception as e:
                 print(e.args)
                 errs += 1
